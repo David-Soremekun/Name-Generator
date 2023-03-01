@@ -1,5 +1,5 @@
-1 JEAN 
-2 ANDRÉ
+Jean
+ANDRÉ
 3 LOUIS
 4 PIERRE 
 5 MARCEL 

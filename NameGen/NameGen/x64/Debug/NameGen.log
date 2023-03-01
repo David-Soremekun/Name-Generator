@@ -1,2 +1,3 @@
 ﻿  NameGen.cpp
+C:\Users\Laptop\source\repos\NameGen\NameGen\NameGen.cpp(17,9): warning C4101: 'numberRand': unreferenced local variable
   NameGen.vcxproj -> C:\Users\Laptop\source\repos\NameGen\x64\Debug\NameGen.exe

@@ -1,130 +1,80 @@
 // NameGen.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+#include <string>
 #include <vector>
 #include <iostream>
 #include <fstream>
-#include <string>
+
 
 using namespace std;
 const int k_NumberOfNames = 100;
 
+void readFile(vector<string>vector,const string &fileName);
+string generateNames(vector<string>fForename, vector<string>mForename, vector<string> Surname);
 
-void generateNames(){
-    int randNum = rand() % 2 + 1;
-
-    if (randNum==1)
-    {
-   
-    }
-    else 
-    {
-        
-    }
-
-}
 
 int main()
 {
+    int numberRand;
+    int numberOfElements=100;
+    vector<string>mFirstName = {};
     vector<string>fFirstName = {};
-    string mFistName[k_NumberOfNames];
-    vector<string>fLastName= {};
-    string line;
+    vector<string>fLastName = {};
+    
+    vector<string>namesGenerated = {};
 
+
+    readFile(fFirstName, "femaleNames");
+    readFile(mFirstName,"maleNames");
+    readFile(fLastName, "lastNames");
+
+    for (size_t i = 0; i < numberOfElements; ++i)
+    {
+        string tempVar=generateNames(fFirstName,mFirstName,fLastName);
+        namesGenerated.push_back(tempVar);
+    }
+    
     
 
-    fstream file; //object of fstream class 
-    file.open("List\\French\\LastNames.txt", ios::in);
-
-    if (!file)
-    {
-        cout << "Error in opening file!!!" << endl;
-        return 0;
-    }
-
-    while (getline(file, line)) {
-        fLastName.push_back(line);
-    }
-
-    file.close(); //close file
-
-    // Loads Female Names into vector
-    file.open("List\\French\\femaleNames.txt", ios::in);
-
-    if (!file)
-    {
-        cout << "Error in opening file!!!" << endl;
-        return 0;
-    }
-
-    while (getline(file, line)) {
-        fLastName.push_back(line);
-    }
-
-    /*for (auto arr : fLastName) 
-    {
-        cout << arr << " " << endl;
-
-    }*/
+    
     return 0;
 }
 
-//struct FrenchName {
-//    
-//    
-//
-//   
-//    
-//    //std::string mFirstName[50] = { "Martin", "Bernard", "Thomas", "Robert", "Richard", "Simon", "Laurent", "Michel", 
-//    //    "David", "Bertrand", "Vincent", "Andre","Francois", "Henry", "Nicolas", "Mathieu", "Clement", "Gauthier","Robin"};
-//    string mLastName[50] = {};
-//
-//    void GenerateNames(int genNum) {
-//        
-//        if (genNum==1) 
-//        {
-//
-//        }
-//        else 
-//        {
-//
-//        }
-//
-//
-//    }
-//
-//};
-//
-//int main()
-//{
-//    int randNum;
-//    
-//    std::cout << "Hello World!\n";
-//    
-//    
-//    string line;
-//    ofstream myfile; 
-//    myfile.open("NameList\\FrenchLastNames.txt");
-//    
-//    
-//    while (getline(myfile, line)) {
-//        //do something with the line
-//    }
-//
-//
-//
-//
-//
-//    std::vector<FrenchName> frenchNames;
-//    for (size_t i = 0; i < 100; i++)
-//    {
-//        randNum = rand() % 2 + 1;
-//
-//        frenchNames[i].GenerateNames(randNum);
-//        
-//    }
-//
-//
-//
-//
-//
-//}
+void readFile(vector<string> vector, const string &fileName) {
+    string line;
+    fstream file; //object of fstream class 
+
+    file.open("List\\French\\" + fileName + ".txt", ios::in);
+
+    if (!file)
+    {
+        cout << "Error in opening file!!!" << endl;
+        return;
+    }
+    // Pushes the Contents into the Vector
+    while (getline(file, line)) {
+        vector.push_back(line);
+    }
+
+    file.close(); //close file
+}
+
+string generateNames(vector<string>fForename, vector<string>mForename, vector<string> Surname){
+    string name;
+    int rnumber = rand() % k_NumberOfNames;
+    int chooseGender = rand() % 2 + 1;
+
+    if (chooseGender == 1)
+    {
+       
+        name = fForename[rand()%99] + " " + Surname[rand()%99];
+        std::cout << name;
+        return name;
+    }
+    else 
+    {
+        name = fForename[rand() % 99] + " " + Surname[rand() % 99];
+        std::cout << name;
+        return name;
+    }
+
+}
