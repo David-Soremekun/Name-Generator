@@ -1,0 +1,4 @@
+﻿  NameGen.cpp
+C:\Users\Laptop\Desktop\Project\Name-Gen\NameGen\NameGen.cpp(23,9): warning C4101: 'numberRand': unreferenced local variable
+C:\Users\Laptop\Desktop\Project\Name-Gen\NameGen\NameGen.cpp(87,42): warning C4834: discarding return value of function with 'nodiscard' attribute
+  NameGen.vcxproj -> C:\Users\Laptop\Desktop\Project\Name-Gen\x64\Debug\NameGen.exe

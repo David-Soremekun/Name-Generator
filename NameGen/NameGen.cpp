@@ -32,7 +32,7 @@ int main()
     /*for (string p : mFirstName) {
         std::cout << p << "\n";
     }*/
-    for (int i = 0; i < 15; ++i) {
+    /*for (int i = 0; i < 15; ++i) {
         
         if (rand()%2+1==2) {
             std::cout << i << ". " << mFirstName.at(dist(rand)) << " " << fLastName.at(dist(rand))<<"\n";
@@ -51,7 +51,7 @@ int main()
     }
     for (auto p : fLastName) {
         p.erase();
-    }
+    }*/
     return 0;
 }
 
