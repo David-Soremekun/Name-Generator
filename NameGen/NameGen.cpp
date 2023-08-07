@@ -29,10 +29,6 @@ int main()
     readFile(mFirstName,"maleNames");
     readFile(fLastName, "lastNames");
     
-    for (int i=0; i<15; i++)
-    {
-        newName.push_back(fFirstName[i]);
-    }
 
     for (auto &p: newName) {
         std::cout << p << "\n";
