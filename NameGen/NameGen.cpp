@@ -29,7 +29,7 @@ int main()
     readFile(mFirstName,"maleNames");
     readFile(fLastName, "lastNames");
     
-
+    //07564185560
     for (auto &p: newName) {
         std::cout << p << "\n";
     }
