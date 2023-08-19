@@ -2,7 +2,7 @@
 #include "Name.h"
 #include <random>
 
-void Name::createSBNames() {
+void Name::createSpanishNames() {
 
     srand(time(NULL));
 
@@ -11,25 +11,25 @@ void Name::createSBNames() {
 
         int NumRand = rand() % 3 + 1;
         if (NumRand == 1) {
-            Name = SbFirstNameB[genFirstName] + " " + SbClanName[genSecondName];
+            Name = spFirstNameB[genFirstName] + " " + spFamilyName[genSecondName];
             listName.push_back(Name);
             genFirstName = rand() % 20;
             genSecondName = rand() % 20;
         }
         else if (NumRand == 2) {
-            Name = SbFirstNameB[genFirstName] + " " + nameMonikers[rand() % 5];
+            Name = spFirstNameB[genFirstName] + " " + spFamilyName[genSecondName];
             listName.push_back(Name);
             genFirstName = rand() % 20;
             genSecondName = rand() % 20;
         }
         else if (NumRand == 3) {
-            Name = SbFirstNameG[genFirstName] + " " + SbClanName[genSecondName];
+            Name = spFirstNameG[genFirstName] + " " + spFamilyName[genSecondName];
             listName.push_back(Name);
             genFirstName = rand() % 20;
             genSecondName = rand() % 20;
         }
         else {
-            Name = SbFirstNameG[genFirstName] + " " + nameMonikers[rand() % 5];
+            Name = spFirstNameG[genFirstName] + " " + spFamilyName[genSecondName];
             listName.push_back(Name);
             genFirstName = rand() % 20;
             genSecondName = rand() % 20;
@@ -47,18 +47,18 @@ void Name::generateNames() {
 
     listName.clear();
 }
-void Name::createADNames() {
+void Name::createFrenchNames() {
     int NumRand = rand() % 2;
     for (int i = 0; i < 20; i++) {
         switch (NumRand) {
         case 1:
-            Name = AdFirstNameB[genFirstName] + " " + AdFamilyName[genSecondName];
+            Name = frFirstNameB[genFirstName] + " " + frFamilyName[genSecondName];
             listName.push_back(Name);
             genFirstName = rand() % 20;
             genSecondName = rand() % 20;
             break;
         case 2:
-            Name = AdFirstNameG[genFirstName] + " " + AdFamilyName[genSecondName];
+            Name = frFirstNameG[genFirstName] + " " + frFamilyName[genSecondName];
             listName.push_back(Name);
             genFirstName = rand() % 20;
             genSecondName = rand() % 20;

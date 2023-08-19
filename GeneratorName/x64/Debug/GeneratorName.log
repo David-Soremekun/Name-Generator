@@ -1,5 +1,38 @@
 ﻿  main.cpp
   Name.cpp
-C:\Users\Laptop\source\repos\GeneratorName\Name.cpp(7,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(7,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(14,20): error C2065: 'SbFirstNameB': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(14,33): error C2065: 'genFirstName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(14,55): error C2065: 'SbClanName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(14,66): error C2065: 'genSecondName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(16,13): error C2065: 'genFirstName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(17,13): error C2065: 'genSecondName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(20,20): error C2065: 'SbFirstNameB': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(20,33): error C2065: 'genFirstName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(20,55): error C2065: 'nameMonikers': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(22,13): error C2065: 'genFirstName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(23,13): error C2065: 'genSecondName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(26,20): error C2065: 'SbFirstNameG': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(26,33): error C2065: 'genFirstName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(26,55): error C2065: 'SbClanName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(26,66): error C2065: 'genSecondName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(28,13): error C2065: 'genFirstName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(29,13): error C2065: 'genSecondName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(32,20): error C2065: 'SbFirstNameG': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(32,33): error C2065: 'genFirstName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(32,55): error C2065: 'nameMonikers': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(34,13): error C2065: 'genFirstName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(35,13): error C2065: 'genSecondName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(55,20): error C2065: 'AdFirstNameB': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(55,33): error C2065: 'genFirstName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(55,55): error C2065: 'AdFamilyName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(55,68): error C2065: 'genSecondName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(57,13): error C2065: 'genFirstName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(58,13): error C2065: 'genSecondName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(61,20): error C2065: 'AdFirstNameG': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(61,33): error C2065: 'genFirstName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(61,55): error C2065: 'AdFamilyName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(61,68): error C2065: 'genSecondName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(63,13): error C2065: 'genFirstName': undeclared identifier
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(64,13): error C2065: 'genSecondName': undeclared identifier
   Generating Code...
-  GeneratorName.vcxproj -> C:\Users\Laptop\source\repos\GeneratorName\x64\Debug\GeneratorName.exe

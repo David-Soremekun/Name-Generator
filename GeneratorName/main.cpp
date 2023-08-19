@@ -4,19 +4,20 @@
 #include <string>
 #include "Name.h"
 int main() {
+    
     std::string numStr;
     int numInt;
     Name names;
 
     std::cout << "***********************" << std::endl;
-    std::cout << "   Name Generator 1.0" << std::endl;
+    std::cout << "   Name Generator 2.0" << std::endl;
     std::cout << "***********************" << std::endl;
     std::cout << "" << std::endl;
     std::cout << "List:" << std::endl;
-    std::cout << "1. Stormborn" << std::endl;
-    std::cout << "2. Andrian" << std::endl;
-    std::cout << "3. Farwish" << std::endl;
-    std::cout << "4. Sabiri" << std::endl;
+    std::cout << "1. French" << std::endl;
+    std::cout << "2. Spanish" << std::endl;
+    //std::cout << "3. Farwish" << std::endl;
+    //std::cout << "4. Sabiri" << std::endl;
     std::cout << "" << std::endl;
     std::cout << "Choose the culture of Names? ";
     std::getline(std::cin, numStr);
@@ -24,11 +25,11 @@ int main() {
 
     switch (numInt) {
     case 1:
-        names.createSBNames();
+        //names.createFrenchNames();
 
         break;
     case 2:
-        names.createADNames();
+        //names.createSpanishNames();
 
         break;
     case 3:
@@ -41,10 +42,8 @@ int main() {
         break;
     default:
         std::cout << "" << std::endl;
-
         break;
     }
-
 
     return 0;
 }
