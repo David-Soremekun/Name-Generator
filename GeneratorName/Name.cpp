@@ -17,6 +17,10 @@ Name::Name()
     const std::string& spLastName = "List\\Spanish\\lastNames.txt";
     const std::string& spFemaleName = "List\\Spanish\\femaleNames.txt";
     const std::string& spMaleName = "List\\Spanish\\maleNames.txt";
+    
+    const std::string& rsLastName = "List\\Russian\\lastNames.txt";
+    const std::string& rsFemaleName = "List\\Russian\\femaleNames.txt";
+    const std::string& rsMaleName = "List\\Russian\\maleNames.txt";
 
     readFile(frMaleName, frFirstNameB, 50);
     readFile(frFemaleName, frFirstNameG, 100);
@@ -25,15 +29,25 @@ Name::Name()
     readFile(spMaleName, spFirstNameB, 100);
     readFile(spFemaleName, spFirstNameG, 100);
     readFile(spLastName, spFamilyName, 196);
+
+    readFile(rsMaleName, rsFirstNameB, 63);
+    readFile(rsFemaleName, rsFirstNameG, 123);
+    readFile(rsLastName, rsFamilyName, 99);
 }
 
+void Name::deleteNames()
+{
+    for (int i = 0; i < listName.size(); i++) {
+        listName[i].erase();
+    }
+}
 void Name::createSpanishNames() 
 {
     int genderChoice;
 
     int amountRandfirstName;
     int amountRandSecondName;
-    for (int i = 0; i < 20; i++) 
+    for (int i = 0; i < nameCount; i++)
     {
         genderChoice = rand() % 2 + 1;
         amountRandfirstName = rand() % 100;
@@ -50,7 +64,7 @@ void Name::createSpanishNames()
             listName.push_back(name);
         }
     }
-    generateNames();
+    printNames();
 }
 
 void Name::readFile(const std::string &filename, std::string *testArray, const int SIZE)
@@ -71,24 +85,99 @@ void Name::readFile(const std::string &filename, std::string *testArray, const i
     }
 }
 
-void Name::generateNames() 
+void Name::printNames()
 {
     for (int i = 0; i < listName.size(); ++i)
         std::cout << listName[i] << std::endl;
 
     listName.clear();
+    deleteNames();
+    
 }
 
 void Name::createFrenchNames() 
 {
     srand(time(NULL));
-
+    int maleFirstNameGen;
+    int genFirstName;
+    int genSecondName;
     int genderChoice;
-    for (int i = 0; i < 20; i++) {
+
+
+    for (int i = 0; i < nameCount; i++) {
         genderChoice = rand() % 2+1;
+        maleFirstNameGen = rand() % 50;
+        genFirstName = rand() % 100;
+        genSecondName = rand() % 100;
         switch (genderChoice) {
         case 1:
-            name = frFirstNameB[genFirstName] + " " + frFamilyName[genSecondName]+ " [M]";;
+            name = frFirstNameB[maleFirstNameGen] + " " + frFamilyName[genSecondName]+ " [M]";;
+            listName.push_back(name);
+            
+            break;
+        case 2:
+            name = frFirstNameG[genFirstName] + " " + frFamilyName[genSecondName] + " [F]";
+            listName.push_back(name);
+            
+            break;
+        default:
+            break;
+        }
+    }
+    printNames();
+}
+
+void Name::createRussianNames()
+{
+    srand(time(NULL));
+    int maleFirstNameGen;
+    int genFirstName;
+    int genSecondName;
+    int genderChoice;
+
+
+    for (int i = 0; i < nameCount; i++) {
+        genderChoice = rand() % 2 + 1;
+
+        maleFirstNameGen = rand() % 63;
+        genFirstName = rand() % 123;
+        genSecondName = rand() % 99;
+        
+        switch (genderChoice) {
+        case 1:
+            name = rsFirstNameB[maleFirstNameGen] + " " + rsFamilyName[genSecondName] + " [M]";;
+            listName.push_back(name);
+            
+            break;
+        case 2:
+            name = rsFirstNameG[genFirstName] + " " + rsFamilyName[genSecondName] + " [F]";
+            listName.push_back(name);
+            
+            break;
+        default:
+            break;
+        }
+    }
+    printNames();
+}
+
+void Name::createItalianNames()
+{
+    srand(time(NULL));
+    int maleFirstNameGen;
+    int genFirstName;
+    int genSecondName;
+    int genderChoice;
+
+
+    for (int i = 0; i < nameCount; i++) {
+        genderChoice = rand() % 2 + 1;
+        maleFirstNameGen = rand() % 50;
+        genFirstName = rand() % 100;
+        genSecondName = rand() % 100;
+        switch (genderChoice) {
+        case 1:
+            name = frFirstNameB[maleFirstNameGen] + " " + frFamilyName[genSecondName] + " [M]";;
             listName.push_back(name);
             genFirstName = rand() % 50;
             genSecondName = rand() % 100;
@@ -103,5 +192,5 @@ void Name::createFrenchNames()
             break;
         }
     }
-    generateNames();
+    printNames();
 }
