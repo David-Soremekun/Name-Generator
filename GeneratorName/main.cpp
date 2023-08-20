@@ -25,19 +25,15 @@ int main() {
 
     switch (numInt) {
     case 1:
-        //names.createFrenchNames();
-
+        names.createFrenchNames();
         break;
     case 2:
         //names.createSpanishNames();
-
         break;
     case 3:
 
-
         break;
     case 4:
-
 
         break;
     default:

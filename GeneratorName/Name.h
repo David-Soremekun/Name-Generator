@@ -6,21 +6,24 @@
 
 class Name {
 private:
+    int nameCountFr = 50;
+
     int count{ 1 };
-    std::string Name;
+    std::string name;
     int genFirstName = rand() % 20;
     int genSecondName = rand() % 20;
     std::vector<std::string> listName;
 
 
-    std::string frFirstNameB[20] = {  };
+    std::string frFirstNameB[50] = {  };
     // Array Containing Male French Given Name
 
-    std::string frFirstNameG[20] = {  };
+    std::string frFirstNameG[100] = {  };
     // Array Containing Female French Given Name
 
-    std::string frFamilyName[20] = { };
-   
+    std::string frFamilyName[100] = { };
+    // Array Containing Female French Surname
+
     std::string spFirstNameB[20] = {  };
     // Array Containing Male Spanish Given Name
 
@@ -29,9 +32,10 @@ private:
 
     std::string spFamilyName[20] = { };
 
-   
+    void readFile(const std::string& filename, std::string* testArray, const int SIZE);
     void generateNames();
 public:
+    Name();
     void createSpanishNames();
     void createFrenchNames();
 };
