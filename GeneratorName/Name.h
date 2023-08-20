@@ -10,8 +10,8 @@ private:
 
     int count{ 1 };
     std::string name;
-    int genFirstName = rand() % 20;
-    int genSecondName = rand() % 20;
+    int genFirstName = rand() % 50;
+    int genSecondName = rand() % 100;
     std::vector<std::string> listName;
 
 

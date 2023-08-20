@@ -13,9 +13,9 @@ Name::Name()
     const std::string& frFemaleName = "List\\femaleNames.txt";
     const std::string& frMaleName = "List\\maleNames.txt";
 
-    readFile(frenchLastName, frFamilyName, 100);
-    readFile(frFemaleName, frFirstNameG, 100);
     readFile(frMaleName, frFirstNameB, 50);
+    readFile(frFemaleName, frFirstNameG, 100);
+    readFile(frenchLastName, frFamilyName, 100);
 
 }
 
@@ -66,7 +66,7 @@ void Name::readFile(const std::string &filename, std::string *testArray, const i
         for (int i = 0; i < SIZE; i++)
         {
             inFile >> testArray[i];
-            //std::cout << testArray[i] << " ";
+            //std::cout << testArray[i] << "\n"; //Test To Ouput Values
         }
 
         inFile.close(); // CLose input file
@@ -81,21 +81,25 @@ void Name::generateNames()
     listName.clear();
 }
 
-void Name::createFrenchNames() {
-    int NumRand = rand() % 2;
+void Name::createFrenchNames() 
+{
+    srand(time(NULL));
+
+    int genderChoice;
     for (int i = 0; i < 20; i++) {
-        switch (NumRand) {
+        genderChoice = rand() % 2+1;
+        switch (genderChoice) {
         case 1:
             name = frFirstNameB[genFirstName] + " " + frFamilyName[genSecondName];
             listName.push_back(name);
-            genFirstName = rand() % 20;
-            genSecondName = rand() % 20;
+            genFirstName = rand() % 50;
+            genSecondName = rand() % 100;
             break;
         case 2:
             name = frFirstNameG[genFirstName] + " " + frFamilyName[genSecondName];
             listName.push_back(name);
-            genFirstName = rand() % 20;
-            genSecondName = rand() % 20;
+            genFirstName = rand() % 50;
+            genSecondName = rand() % 100;
             break;
         default:
             break;
