@@ -1,4 +1,2 @@
-﻿  Name.cpp
-C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(10,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(86,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+﻿  main.cpp
   GeneratorName.vcxproj -> C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\x64\Debug\GeneratorName.exe

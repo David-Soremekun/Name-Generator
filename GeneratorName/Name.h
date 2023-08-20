@@ -24,13 +24,13 @@ private:
     std::string frFamilyName[100] = { };
     // Array Containing Female French Surname
 
-    std::string spFirstNameB[20] = {  };
+    std::string spFirstNameB[100] = {  };
     // Array Containing Male Spanish Given Name
 
-    std::string spFirstNameG[20] = {  };
+    std::string spFirstNameG[100] = {  };
     // Array Containing Female Spanish Given Name
 
-    std::string spFamilyName[20] = { };
+    std::string spFamilyName[196] = { };
 
     void readFile(const std::string& filename, std::string* testArray, const int SIZE);
     void generateNames();
