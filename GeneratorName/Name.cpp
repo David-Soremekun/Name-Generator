@@ -7,13 +7,12 @@
 
 Name::Name()
 {
-    srand(time(NULL));
-   
-    
+       
 }
 
 Name::~Name()
 {
+
     delete[] swFirstNameB;
     delete[] swFirstNameG;
     delete[] swFamilyName;
@@ -45,13 +44,14 @@ void Name::readFile(const std::string &filename, std::string *testArray, const i
     std::string inFileName = filename;
     std::ifstream inFile;
     inFile.open(inFileName.c_str());
-
+    //char* fname[18];
     if (inFile.is_open())
     {
         for (int i = 0; i < SIZE; i++)
         {
-            inFile >> testArray[i];
-            //std::cout << testArray[i] << "\n"; //Test To Ouput Values
+            
+            inFile>>testArray[i];
+            
         }
 
         inFile.close(); // CLose input file
@@ -64,7 +64,7 @@ void Name::printNames()
     for (int i = 0; i < listName.size(); ++i)
         std::cout << listName[i] << std::endl;
 
-    listName.clear();
+    //listName.clear();
     deleteNames();
     
 }

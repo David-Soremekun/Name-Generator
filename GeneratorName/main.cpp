@@ -8,10 +8,10 @@
 
 int main() {
 
-    /*std::locale::global(std::locale{ ".utf-8" });
+    std::locale::global(std::locale{ ".utf-8" });
     auto streamLocale = std::locale{ "" };
     std::cout.imbue(streamLocale);
-    std::cin.imbue(streamLocale);*/
+    std::cin.imbue(streamLocale);
 
     Name *names = new Name();
 
@@ -35,6 +35,7 @@ int main() {
         std::cout << "5. Swedish" << std::endl;
         std::cout << "6. Japanese" << std::endl;
         std::cout << "Choose the nationality of names? ";
+        std::cout << "\n" << std::endl;
         std::getline(std::cin, numStr);
         std::istringstream(numStr) >> numInt;
         std::cout << "\n";

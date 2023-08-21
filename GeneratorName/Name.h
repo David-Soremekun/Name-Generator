@@ -11,7 +11,6 @@ private:
     std::string name;
     std::vector<std::string> listName;
 
-
     std::string frFirstNameB[50] = { };  // Array Containing Male French Given Name
     std::string frFirstNameG[100] = { }; // Array Containing Female French Given Name
     std::string frFamilyName[100] = { }; // Array Containing Female French Surname
@@ -40,8 +39,10 @@ private:
     void printNames();
     void deleteNames();
 public:
+
     Name();
     ~Name();
+
     void createSpanishNames();
     void createFrenchNames();
     void createRussianNames();

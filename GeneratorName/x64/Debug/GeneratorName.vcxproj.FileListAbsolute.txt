@@ -1,2 +1,1 @@
 C:\Users\Laptop\source\repos\GeneratorName\x64\Debug\GeneratorName.exe
-C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\x64\Debug\GeneratorName.exe
