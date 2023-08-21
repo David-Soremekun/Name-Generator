@@ -12,7 +12,7 @@ int main() {
     bool playAgain = true;
 
 
-    while (playAgain) 
+    do
     {
         std::cout << "***********************" << std::endl;
         std::cout << "   Name Generator 2.0" << std::endl;
@@ -21,38 +21,48 @@ int main() {
         std::cout << "List:" << std::endl;
         std::cout << "1. French" << std::endl;
         std::cout << "2. Spanish" << std::endl;
-        std::cout << "3. Russian" << std::endl;
-        std::cout << "4. Italian" << std::endl;
+        std::cout << "3. Italian" << std::endl;
+        std::cout << "4. Russian" << std::endl;
+        std::cout << "5. Swedish" << std::endl;
         std::cout << "Choose the culture of Names? ";
         std::getline(std::cin, numStr);
         std::istringstream(numStr) >> numInt;
         std::cout << "\n";
 
-        if(numInt == 1 )
+        switch (numInt)
         {
+        case 1:
             names.createFrenchNames();
             std::cout << "\n";
-        }
-        else if (numInt == 2) 
-        {
+            break;
+        case 2:
             names.createSpanishNames();
             std::cout << "\n";
-        }
-        else if (numInt == 3)
-        {
+            break;
+        case 3: 
+            names.createItalianNames();
+            std::cout << "\n";
+            break;
+        case 4:
             names.createRussianNames();
             std::cout << "\n";
-        }
-        else
-        {
-            std::cout << "" << std::endl;
+            break;
+        case 5: 
+            names.createSwedishNames();
+            std::cout << "\n";
+            break;
+        default:
+            break;
         }
 
         std::cout << "Do you want to go again? (Yes/No) \n";
         std::cin >> response;
         if (response=="Yes" || response == "yes" || response == "Y" || response == "y") 
         {
+            
             playAgain = true;
+            //break;
+
         }
         else if (response == "No" || response == "no" || response == "N" || response == "n") 
         {
@@ -61,8 +71,8 @@ int main() {
         else 
         {
             std::cout << "ERROR ~ INVALID INPUT\n";
-        }
-    }
+        } 
+    } while (playAgain);
     
 
     return 0;

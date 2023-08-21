@@ -13,7 +13,6 @@ Name::Name()
     const std::string& frFemaleName = "List\\French\\femaleNames.txt";
     const std::string& frMaleName = "List\\French\\maleNames.txt";
 
-
     const std::string& spLastName = "List\\Spanish\\lastNames.txt";
     const std::string& spFemaleName = "List\\Spanish\\femaleNames.txt";
     const std::string& spMaleName = "List\\Spanish\\maleNames.txt";
@@ -21,6 +20,14 @@ Name::Name()
     const std::string& rsLastName = "List\\Russian\\lastNames.txt";
     const std::string& rsFemaleName = "List\\Russian\\femaleNames.txt";
     const std::string& rsMaleName = "List\\Russian\\maleNames.txt";
+
+    const std::string&itLastName = "List\\Italian\\lastNames.txt";
+    const std::string& itFemaleName = "List\\Italian\\femaleNames.txt";
+    const std::string& itMaleName = "List\\Italian\\maleNames.txt";
+
+    const std::string& swLastName = "List\\Swedish\\lastNames.txt";
+    const std::string& swFemaleName = "List\\Swedish\\femaleNames.txt";
+    const std::string& swMaleName = "List\\Swedish\\maleNames.txt";
 
     readFile(frMaleName, frFirstNameB, 50);
     readFile(frFemaleName, frFirstNameG, 100);
@@ -33,6 +40,15 @@ Name::Name()
     readFile(rsMaleName, rsFirstNameB, 63);
     readFile(rsFemaleName, rsFirstNameG, 123);
     readFile(rsLastName, rsFamilyName, 99);
+
+    readFile(itMaleName, itFirstNameB, 383);
+    readFile(itFemaleName, itFirstNameG, 198);
+    readFile(itLastName, itFamilyName, 791);
+
+    readFile(swMaleName, swFirstNameB, 198);
+    readFile(swFemaleName, swFirstNameG, 178);
+    readFile(swLastName, swFamilyName, 710);
+
 }
 
 void Name::deleteNames()
@@ -172,21 +188,51 @@ void Name::createItalianNames()
 
     for (int i = 0; i < nameCount; i++) {
         genderChoice = rand() % 2 + 1;
-        maleFirstNameGen = rand() % 50;
-        genFirstName = rand() % 100;
-        genSecondName = rand() % 100;
+
+        maleFirstNameGen = rand() % 383;
+        genFirstName = rand() % 198;
+        genSecondName = rand() % 791;
+
         switch (genderChoice) {
         case 1:
-            name = frFirstNameB[maleFirstNameGen] + " " + frFamilyName[genSecondName] + " [M]";;
+            name = itFirstNameB[maleFirstNameGen] + " " + itFamilyName[genSecondName] + " [M]";;
             listName.push_back(name);
-            genFirstName = rand() % 50;
-            genSecondName = rand() % 100;
             break;
         case 2:
-            name = frFirstNameG[genFirstName] + " " + frFamilyName[genSecondName] + " [F]";
+            name = itFirstNameG[genFirstName] + " " + itFamilyName[genSecondName] + " [F]";
             listName.push_back(name);
-            genFirstName = rand() % 50;
-            genSecondName = rand() % 100;
+            break;
+        default:
+            break;
+        }
+    }
+    printNames();
+}
+
+void Name::createSwedishNames()
+{
+    srand(time(NULL));
+    int maleFirstNameGen;
+    int genFirstName;
+    int genSecondName;
+    int genderChoice;
+
+
+    for (int i = 0; i < nameCount; i++) {
+        genderChoice = rand() % 2 + 1;
+
+        maleFirstNameGen = rand() % 198;
+        genFirstName = rand() % 178;
+        genSecondName = rand() % 710;
+
+        switch (genderChoice) {
+        case 1:
+            name = swFirstNameB[maleFirstNameGen] + " " + swFamilyName[genSecondName] + " [M]";;
+            listName.push_back(name);
+            break;
+        case 2:
+            name = swFirstNameG[genFirstName] + " " + swFamilyName[genSecondName] + " [F]";
+            listName.push_back(name);
             break;
         default:
             break;

@@ -64,13 +64,13 @@ Clemente
 Contrera
 Costales
 Cueva
-De Avila
-De Jesus
-De la Pena
-De la Rosa
-De Toro
+DeAvila
+DeJesus
+DelaPena
+DelaRosa
+DeToro
 Degollado
-Del Campo
+DelCampo
 Diaz
 Diego
 Domingo
@@ -107,7 +107,7 @@ Javier
 Jiminez
 Joaquin
 Juarez
-La Torre
+LaTorre
 Lago
 Lanzo
 Leo
