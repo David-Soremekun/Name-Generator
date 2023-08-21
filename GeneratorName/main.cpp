@@ -45,31 +45,31 @@ int main() {
 
         switch (numInt)
         {
-        case 1:
+        case 2:
             names->createFrenchNames();
             std::cout << "\n";
             break;
-        case 2:
+        case 3:
             names->createSpanishNames();
             std::cout << "\n";
             break;
-        case 3: 
+        case 4: 
             names->createItalianNames();
             std::cout << "\n";
             break;
-        case 4:
+        case 5:
             names->createGermanNames();
             //std::cout << "\n";
             break;
-        case 5:
+        case 7:
             names->createRussianNames();
             std::cout << "\n";
             break;
-        case 6: 
+        case 8: 
             names->createSwedishNames();
             std::cout << "\n";
             break;
-        case 7:
+        case 10:
             names->createJapaneseNames();
             std::cout << "\n";
         default:
