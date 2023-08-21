@@ -90,8 +90,12 @@ void Name::createSpanishNames()
     int genderChoice;
     int amountRandfirstName;
     int amountRandSecondName;
+    random_shuffle(std::begin(spFirstNameB), std::end(spFirstNameB));
+    random_shuffle(std::begin(spFirstNameG), std::end(spFirstNameG));
+    random_shuffle(std::begin(spFamilyName), std::end(spFamilyName));
     for (int i = 0; i < nameCount; i++)
     {
+        
         genderChoice = rand() % 2 + 1;
         amountRandfirstName = rand() % 100;
         amountRandSecondName = rand() % 196;
@@ -117,7 +121,7 @@ void Name::createFrenchNames()
     const std::string& frMaleName = "List\\French\\maleNames.txt";
 
 
-    readFile(frMaleName, frFirstNameB, 50);
+    readFile(frMaleName, frFirstNameB, 326);
     readFile(frFemaleName, frFirstNameG, 100);
     readFile(frenchLastName, frFamilyName, 100);
 
@@ -131,9 +135,13 @@ void Name::createFrenchNames()
 
     for (int i = 0; i < nameCount; i++) {
         genderChoice = rand() % 2+1;
-        maleFirstNameGen = rand() % 50;
+        maleFirstNameGen = rand() % 326;
         genFirstName = rand() % 100;
         genSecondName = rand() % 100;
+
+        random_shuffle(std::begin(frFirstNameB), std::end(frFirstNameB));
+        random_shuffle(std::begin(frFirstNameG), std::end(frFirstNameG));
+        random_shuffle(std::begin(frFamilyName), std::end(frFamilyName));
         switch (genderChoice) {
         case 1:
             name = frFirstNameB[maleFirstNameGen] + " " + frFamilyName[genSecondName]+ " [M]";;
@@ -177,6 +185,10 @@ void Name::createRussianNames()
         genFirstName = rand() % 123;
         genSecondName = rand() % 99;
         
+        random_shuffle(std::begin(rsFirstNameB), std::end(rsFirstNameB));
+        random_shuffle(std::begin(rsFirstNameG), std::end(rsFirstNameG));
+        random_shuffle(std::begin(rsFamilyName), std::end(rsFamilyName));
+
         switch (genderChoice) {
         case 1:
             name = rsFirstNameB[maleFirstNameGen] + " " + rsFamilyName[genSecondName] + " [M]";;
@@ -219,6 +231,10 @@ void Name::createItalianNames()
         genFirstName = rand() % 198;
         genSecondName = rand() % 791;
 
+        random_shuffle(std::begin(itFirstNameB), std::end(itFirstNameB));
+        random_shuffle(std::begin(itFirstNameG), std::end(itFirstNameG));
+        random_shuffle(std::begin(itFamilyName), std::end(itFamilyName));
+
         switch (genderChoice) {
         case 1:
             name = itFirstNameB[maleFirstNameGen] + " " + itFamilyName[genSecondName] + " [M]";;
@@ -260,6 +276,10 @@ void Name::createSwedishNames()
         genFirstName = rand() % 178;
         genSecondName = rand() % 710;
 
+        random_shuffle(std::begin(swFirstNameB), std::end(swFirstNameB));
+        random_shuffle(std::begin(swFirstNameG), std::end(swFirstNameG));
+        random_shuffle(std::begin(swFamilyName), std::end(swFamilyName));
+
         switch (genderChoice) {
         case 1:
             name = swFirstNameB[maleFirstNameGen] + " " + swFamilyName[genSecondName] + " [M]";;
@@ -299,6 +319,10 @@ void Name::createJapaneseNames()
         genFirstName = rand() % 499;
         genSecondName = rand() % 110;
 
+        random_shuffle(std::begin(jpFirstNameB), std::end(jpFirstNameB));
+        random_shuffle(std::begin(jpFirstNameG), std::end(jpFirstNameG));
+        random_shuffle(std::begin(jpFamilyName), std::end(jpFamilyName));
+
         switch (genderChoice) {
         case 1:
             name = jpFamilyName[genSecondName] + " " + jpFirstNameB[maleFirstNameGen] + " [M]";
@@ -314,4 +338,49 @@ void Name::createJapaneseNames()
     }
     printNames();
 
+}
+
+void Name::createGermanNames()
+{
+    const std::string& grLastName = "List\\German\\lastNames.txt";
+    const std::string& grFemaleName = "List\\German\\femaleNames.txt";
+    const std::string& grMaleName = "List\\German\\maleNames.txt";
+
+    readFile(grMaleName, grFirstNameB, 332);
+    readFile(grFemaleName, grFirstNameG, 215);
+    readFile(grLastName, grFamilyName, 906);
+
+
+    int maleFirstNameGen;
+    int genFirstName;
+    int genSecondName;
+    int genderChoice;
+
+    
+
+    for (int i = 0; i < nameCount; i++) {
+        genderChoice = rand() % 2 + 1;
+
+        maleFirstNameGen = rand() % 332;
+        genFirstName = rand() % 215;
+        genSecondName = rand() % 906;
+
+        random_shuffle(std::begin(grFirstNameB), std::end(grFirstNameB));
+        random_shuffle(std::begin(grFirstNameG), std::end(grFirstNameG));
+        random_shuffle(std::begin(grFamilyName), std::end(grFamilyName));
+
+        switch (genderChoice) {
+        case 1:
+            name = grFirstNameB[maleFirstNameGen] + " " + grFamilyName[genSecondName] + " [M]";;
+            listName.push_back(name);
+            break;
+        case 2:
+            name = grFirstNameG[genFirstName] + " " + grFamilyName[genSecondName] + " [F]";
+            listName.push_back(name);
+            break;
+        default:
+            break;
+        }
+    }
+    printNames();
 }

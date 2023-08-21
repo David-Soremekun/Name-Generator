@@ -28,41 +28,48 @@ int main() {
         std::cout << "***********************" << std::endl;
         std::cout << "\n" << std::endl;
         std::cout << "List:" << std::endl;
-        std::cout << "1. French" << std::endl;
-        std::cout << "2. Spanish" << std::endl;
-        std::cout << "3. Italian" << std::endl;
-        std::cout << "4. Russian" << std::endl;
-        std::cout << "5. Swedish" << std::endl;
-        std::cout << "6. Japanese" << std::endl;
+        //std::cout << "1. English" << std::endl;
+        std::cout << "2. French" << std::endl;
+        std::cout << "3. Spanish" << std::endl;
+        std::cout << "4. Italian" << std::endl;
+        std::cout << "5. German" << std::endl;
+        //std::cout << "6. Polish" << std::endl;
+        std::cout << "7. Russian" << std::endl;
+        std::cout << "8. Swedish" << std::endl;
+        //std::cout << "9. Norweigan" << std::endl;
+        std::cout << "10. Japanese" << std::endl;
         std::cout << "Choose the nationality of names? ";
-        std::cout << "\n" << std::endl;
+        //std::cout << "\n" << std::endl;
         std::getline(std::cin, numStr);
         std::istringstream(numStr) >> numInt;
-        std::cout << "\n";
 
         switch (numInt)
         {
-        case 1:
+        case 2:
             names->createFrenchNames();
             std::cout << "\n";
             break;
-        case 2:
+        case 3:
             names->createSpanishNames();
             std::cout << "\n";
             break;
-        case 3: 
+        case 4: 
             names->createItalianNames();
             std::cout << "\n";
             break;
-        case 4:
+        case 5:
+            names->createGermanNames();
+            //std::cout << "\n";
+            break;
+        case 7:
             names->createRussianNames();
             std::cout << "\n";
             break;
-        case 5: 
+        case 8: 
             names->createSwedishNames();
             std::cout << "\n";
             break;
-        case 6:
+        case 10:
             names->createJapaneseNames();
             std::cout << "\n";
         default:
