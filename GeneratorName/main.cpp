@@ -1,11 +1,20 @@
 
 #include <iostream>
 #include <sstream>
+#include <locale>
+#include <exception>
 #include <string>
 #include "Name.h"
 
 int main() {
-    Name names;
+
+    std::locale::global(std::locale{ ".utf-8" });
+    auto streamLocale = std::locale{ "" };
+    std::cout.imbue(streamLocale);
+    std::cin.imbue(streamLocale);
+
+    Name *names = new Name();
+
     int numInt;
     std::string numStr;
     std::string response;
@@ -24,7 +33,9 @@ int main() {
         std::cout << "3. Italian" << std::endl;
         std::cout << "4. Russian" << std::endl;
         std::cout << "5. Swedish" << std::endl;
-        std::cout << "Choose the culture of Names? ";
+        std::cout << "6. Japanese" << std::endl;
+        std::cout << "Choose the nationality of names? ";
+        std::cout << "\n" << std::endl;
         std::getline(std::cin, numStr);
         std::istringstream(numStr) >> numInt;
         std::cout << "\n";
@@ -32,25 +43,28 @@ int main() {
         switch (numInt)
         {
         case 1:
-            names.createFrenchNames();
+            names->createFrenchNames();
             std::cout << "\n";
             break;
         case 2:
-            names.createSpanishNames();
+            names->createSpanishNames();
             std::cout << "\n";
             break;
         case 3: 
-            names.createItalianNames();
+            names->createItalianNames();
             std::cout << "\n";
             break;
         case 4:
-            names.createRussianNames();
+            names->createRussianNames();
             std::cout << "\n";
             break;
         case 5: 
-            names.createSwedishNames();
+            names->createSwedishNames();
             std::cout << "\n";
             break;
+        case 6:
+            names->createJapaneseNames();
+            std::cout << "\n";
         default:
             break;
         }
