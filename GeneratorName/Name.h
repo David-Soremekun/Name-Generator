@@ -6,7 +6,7 @@
 
 class Name {
 private:
-    int nameCount = 12;
+    int nameCount = 20;
 
     std::string name;
     std::vector<std::string> listName;

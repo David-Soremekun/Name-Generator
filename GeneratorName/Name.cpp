@@ -37,6 +37,9 @@ Name::~Name()
     delete[] rsFirstNameG;
     delete[] rsFamilyName;
 
+    delete[] grFirstNameB;
+    delete[] grFirstNameG;
+    delete[] grFamilyName;
 }
 
 void Name::readFile(const std::string &filename, std::string *testArray, const int SIZE)

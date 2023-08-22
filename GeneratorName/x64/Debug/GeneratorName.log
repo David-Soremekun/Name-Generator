@@ -1,2 +1,30 @@
 ﻿  main.cpp
+  Name.cpp
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(16,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(17,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(18,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(20,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(21,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(22,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(24,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(25,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(26,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(28,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(29,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(30,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(32,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(33,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(34,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(36,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(37,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(38,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(40,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(41,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(42,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(132,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(177,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(215,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(259,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(304,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
   GeneratorName.vcxproj -> C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\x64\Debug\GeneratorName.exe
