@@ -1,5 +1,4 @@
-﻿  main.cpp
-  Name.cpp
+﻿  Name.cpp
 C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(16,5): warning C4154: deletion of an array expression; conversion to pointer supplied
 C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(17,5): warning C4154: deletion of an array expression; conversion to pointer supplied
 C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(18,5): warning C4154: deletion of an array expression; conversion to pointer supplied
@@ -26,5 +25,4 @@ C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(177,15): warning
 C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(215,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(259,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(304,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Generating Code...
   GeneratorName.vcxproj -> C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\x64\Debug\GeneratorName.exe

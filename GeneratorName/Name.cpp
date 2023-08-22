@@ -387,3 +387,46 @@ void Name::createGermanNames()
     }
     printNames();
 }
+
+void Name::createEnglishNames() 
+{
+    const std::string& enLastName = "List\\English\\lastNames.txt";
+    const std::string& enFemaleName = "List\\English\\femaleNames.txt";
+    const std::string& enMaleName = "List\\English\\maleNames.txt";
+
+    readFile(enMaleName, enFirstNameB, 790);
+    readFile(enFemaleName, enFirstNameG, 756);
+    readFile(enLastName, enFamilyName, 639);
+
+
+    int maleFirstNameGen;
+    int genFirstName;
+    int genSecondName;
+    int genderChoice;
+
+    for (int i = 0; i < nameCount; i++) {
+        genderChoice = rand() % 2 + 1;
+
+        maleFirstNameGen = rand() % 790;
+        genFirstName = rand() % 756;
+        genSecondName = rand() % 639;
+
+        random_shuffle(std::begin(enFirstNameB), std::end(enFirstNameB));
+        random_shuffle(std::begin(enFirstNameG), std::end(enFirstNameG));
+        random_shuffle(std::begin(enFamilyName), std::end(enFamilyName));
+
+        switch (genderChoice) {
+        case 1:
+            name = enFirstNameB[maleFirstNameGen] + " " + enFamilyName[genSecondName] + " [M]";;
+            listName.push_back(name);
+            break;
+        case 2:
+            name = enFirstNameG[genFirstName] + " " + enFamilyName[genSecondName] + " [F]";
+            listName.push_back(name);
+            break;
+        default:
+            break;
+        }
+    }
+    printNames();
+}

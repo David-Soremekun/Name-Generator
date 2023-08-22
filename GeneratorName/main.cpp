@@ -28,7 +28,7 @@ int main() {
         std::cout << "***********************" << std::endl;
         std::cout << "\n" << std::endl;
         std::cout << "List:" << std::endl;
-        //std::cout << "1. English" << std::endl;
+        std::cout << "1. English" << std::endl;
         std::cout << "2. French" << std::endl;
         std::cout << "3. Spanish" << std::endl;
         std::cout << "4. Italian" << std::endl;
@@ -45,6 +45,10 @@ int main() {
 
         switch (numInt)
         {
+        case 1:
+            names->createEnglishNames();
+            std::cout << "\n";
+            break;
         case 2:
             names->createFrenchNames();
             std::cout << "\n";
