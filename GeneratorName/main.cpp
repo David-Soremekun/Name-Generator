@@ -36,7 +36,7 @@ int main() {
         //std::cout << "6. Polish" << std::endl;
         std::cout << "7. Russian" << std::endl;
         std::cout << "8. Swedish" << std::endl;
-        //std::cout << "9. Norweigan" << std::endl;
+        std::cout << "9. Norweigan" << std::endl;
         std::cout << "10. Japanese" << std::endl;
         std::cout << "Choose the nationality of names? ";
         //std::cout << "\n" << std::endl;
@@ -71,6 +71,10 @@ int main() {
             break;
         case 8: 
             names->createSwedishNames();
+            std::cout << "\n";
+            break;
+        case 9:
+            names->createNorwegianNames();
             std::cout << "\n";
             break;
         case 10:

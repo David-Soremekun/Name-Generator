@@ -1,100 +1,194 @@
-Arlo
-Hugo
-Mateo
-Marco
-Joaquin
-Jago
-Leonardo
-Rafael
-Lorenzo
-Diego
-Inigo
-Archibald
-Santiago
-Teo
-Antonio
-Emilio
-Cruz
-Sol
-Rio
-Leandro
-Luciano
-Valentino
-Francisco
-Carlos
-Lucio
-Ignacio
-Alejandro
-Marcello
-Javier
-Matias
-Alfredo
-Esai
-Alonzo
-Miguel
-Agustin
-Helio
-Ishmael
-Mario
-Pablo
-Emiliano
-Carlo
-Alvaro
-Cayo
-Bastien
-Gil
-Rico
-Maceo
-Benicio
-Raul
-Salvador
-Alonso
-Jose
-Nilo
-Santi
-Canyon
-Carmelo
-Claudio
-Nacho
-Fernando
-Silvio
-Eloi
-Cesar
-Alfonso
-Jadiel
-Paco
-Armando
-Manuel
-Juan
-Matheo
-Sergio
-Mino
-Jaime
-Rey
-Eduardo
-Vale
-Maximo
-Pedro
-Ricardo
-Isaias
-Elia
-Iago
-Enrique
-Macario
-Alberto
-Vasco
-Renato
-Gustavo
-Maximiliano
-Esteban
-Rodrigo
-Octavio
-Desi
-Elizar
-Felipe
-Arsenio
-Vicente
-Rogelio
-Chito
-Marcelo
-Valencio
+Adam (given name)
+Adolf
+Albert (given name)
+Albin (given name)
+Alojzy
+Alvin (given name)
+Amadeusz
+Andrzej
+Anicet
+Antek
+Anton (given name)
+Antoni
+Antos (name)
+Apolinary
+Arkadiusz
+Arkady
+Arnold (given name)
+B
+Barnim (disambiguation)
+Bartek
+Bartłomiej
+Bartosz
+Berek
+Bogdan
+Bogomil (name)
+Bogusław (given name)
+Bolesław (given name)
+Boris (given name)
+Borislav
+Borzysław
+Boyan (given name)
+Branimir
+Bruno (name)
+C
+Casimir
+Cezary
+Ctirad
+Czesław
+D
+Daniel
+Dario
+Dariusz
+Dawid
+Dobiesław
+Dobrogost
+E
+Eligiusz
+Ernest
+Eryk
+F
+Feliks
+Florian (name)
+Franciszek
+Fryderyk (given name)
+G
+Gerard
+Godzimir
+Grzegorz (given name)
+H
+Henryk (given name)
+Herbert (given name)
+Hubert
+I
+Ignacy
+J
+Jacek
+Jaczemir
+Jan (name)
+Janek (given name)
+Janisław
+Janusz
+Jarek
+Jaromir
+Jarosław (given name)
+Jędrzej
+Jeremi
+Jerzy
+Jozef
+Jurand
+Jurek (given name)
+K
+Kacper
+Kamil
+Karol (name)
+Klemens
+Kostek (disambiguation)
+Krystian
+Krzesimir
+Krzysztof
+Ksawery
+L
+Lech (name)
+Leopold (given name)
+Leszek
+List of people named Piotr
+Lotar (name)
+Lubomir
+Lucjan
+Ludomir
+Ludwik
+Łukasz
+M
+Maciej
+Maciuś
+Maik
+Maksymilian
+Manuel (name)
+Marcin
+Marek (given name)
+Marian (given name)
+Mariusz
+Mateusz
+Maurycy
+Michał
+Mieczysław
+Mieszko
+Mikołaj
+Milan (given name)
+Miloš
+Mirosław (given name)
+Mordechaj
+Mściwój
+Mstislav (given name)
+N
+Norbert
+O
+Odolan (given name)
+Olgierd (given name)
+P
+Paweł
+Piotr
+Przemysł (name)
+Przemysław
+Przybysław
+R
+Radomir (given name)
+Radosław
+Rafał
+Rajmund
+Ratimir
+Roman (given name)
+Romuald (disambiguation)
+Rostislav (given name)
+Ryszard
+S
+Samuel (name)
+Seweryn
+Sławoj
+Sławomir
+Sławosz
+Sobieslaw
+Spycimir
+Spytek
+Stanimir
+Stanislav (given name)
+Stefan (given name)
+Świętopełk
+Świętosław
+Szlama
+Szlomo
+Szmuel
+Szmul
+Szymon
+T
+Tadeusz
+Teodor
+Teofil
+Tomasz
+Tomek
+V
+Valentin
+Vitomir
+W
+Wacław
+Waldemar
+Walenty
+Walery (name)
+Wawrzyniec
+Wielimir
+Wiesław
+Witold (given name)
+Władysław
+Włodzimierz (given name)
+Wojciech
+X
+Xawery
+Z
+Zawisza
+Zbigniew
+Zbylut (given name)
+Zbyszko
+Zdzisław (given name)
+Ziemowit
+Zygmunt

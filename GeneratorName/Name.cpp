@@ -374,7 +374,7 @@ void Name::createGermanNames()
 
         switch (genderChoice) {
         case 1:
-            name = grFirstNameB[maleFirstNameGen] + " " + grFamilyName[genSecondName] + " [M]";;
+            name = grFirstNameB[maleFirstNameGen] + " " + grFamilyName[genSecondName] + " [M]";
             listName.push_back(name);
             break;
         case 2:
@@ -417,7 +417,7 @@ void Name::createEnglishNames()
 
         switch (genderChoice) {
         case 1:
-            name = enFirstNameB[maleFirstNameGen] + " " + enFamilyName[genSecondName] + " [M]";;
+            name = enFirstNameB[maleFirstNameGen] + " " + enFamilyName[genSecondName] + " [M]";
             listName.push_back(name);
             break;
         case 2:
@@ -429,4 +429,92 @@ void Name::createEnglishNames()
         }
     }
     printNames();
+}
+
+void Name::createNorwegianNames()
+{
+    const std::string& ngLastName = "List\\Norwegian\\lastNames.txt";
+    const std::string& ngFemaleName = "List\\Norwegian\\femaleNames.txt";
+    const std::string& ngMaleName = "List\\Norwegian\\maleNames.txt";
+
+    readFile(ngMaleName, ngFirstNameB, 266);
+    readFile(ngFemaleName, ngFirstNameG, 147);
+    readFile(ngLastName, ngFamilyName, 841);
+
+
+    int maleFirstNameGen;
+    int genFirstName;
+    int genSecondName;
+    int genderChoice;
+
+    for (int i = 0; i < nameCount; i++) {
+        genderChoice = rand() % 2 + 1;
+
+        maleFirstNameGen = rand() % 266;
+        genFirstName = rand() % 147;
+        genSecondName = rand() % 841;
+
+        random_shuffle(std::begin(ngFirstNameB), std::end(ngFirstNameB));
+        random_shuffle(std::begin(ngFirstNameG), std::end(ngFirstNameG));
+        random_shuffle(std::begin(ngFamilyName), std::end(ngFamilyName));
+
+        switch (genderChoice) {
+        case 1:
+            name = ngFirstNameB[maleFirstNameGen] + " " + ngFamilyName[genSecondName] + " [M]";
+            listName.push_back(name);
+            break;
+        case 2:
+            name = ngFirstNameG[genFirstName] + " " + ngFamilyName[genSecondName] + " [F]";
+            listName.push_back(name);
+            break;
+        default:
+            break;
+        }
+    }
+    printNames();
+
+}
+
+void Name::createPolishNames()
+{
+    const std::string& plLastName = "List\\Polish\\lastNames.txt";
+    const std::string& plFemaleName = "List\\Polish\\femaleNames.txt";
+    const std::string& plMaleName = "List\\Polish\\maleNames.txt";
+
+    readFile(plMaleName, ngFirstNameB, 266);
+    readFile(plFemaleName, ngFirstNameG, 147);
+    readFile(plLastName, ngFamilyName, 841);
+
+
+    int maleFirstNameGen;
+    int genFirstName;
+    int genSecondName;
+    int genderChoice;
+
+    for (int i = 0; i < nameCount; i++) {
+        genderChoice = rand() % 2 + 1;
+
+        maleFirstNameGen = rand() % 266;
+        genFirstName = rand() % 147;
+        genSecondName = rand() % 841;
+
+        random_shuffle(std::begin(ngFirstNameB), std::end(ngFirstNameB));
+        random_shuffle(std::begin(ngFirstNameG), std::end(ngFirstNameG));
+        random_shuffle(std::begin(ngFamilyName), std::end(ngFamilyName));
+
+        switch (genderChoice) {
+        case 1:
+            name = ngFirstNameB[maleFirstNameGen] + " " + ngFamilyName[genSecondName] + " [M]";
+            listName.push_back(name);
+            break;
+        case 2:
+            name = ngFirstNameG[genFirstName] + " " + ngFamilyName[genSecondName] + " [F]";
+            listName.push_back(name);
+            break;
+        default:
+            break;
+        }
+    }
+    printNames();
+
 }

@@ -11,9 +11,9 @@ private:
     std::string name;
     std::vector<std::string> listName;
 
-    std::string ngFirstNameB[790] = { };  // Array Containing Male Norwegian Given Name
-    std::string ngFirstNameG[756] = { };  // Array Containing Female Norwegian Given Name
-    std::string ngFamilyName[639] = { };  // Array Containing Female Norwegian Surname
+    std::string ngFirstNameB[266] = { };  // Array Containing Male Norwegian Given Name
+    std::string ngFirstNameG[147] = { };  // Array Containing Female Norwegian Given Name
+    std::string ngFamilyName[841] = { };  // Array Containing Female Norwegian Surname
 
     std::string enFirstNameB[790] = { };  // Array Containing Male English Given Name
     std::string enFirstNameG[756] = { };  // Array Containing Female English Given Name
@@ -62,6 +62,8 @@ public:
     void createRussianNames();
     void createItalianNames();
     void createSwedishNames();
+    void createPolishNames();
     void createJapaneseNames();
+    void createNorwegianNames();
     void createGermanNames();
 };
