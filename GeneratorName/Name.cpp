@@ -481,9 +481,9 @@ void Name::createPolishNames()
     const std::string& plFemaleName = "List\\Polish\\femaleNames.txt";
     const std::string& plMaleName = "List\\Polish\\maleNames.txt";
 
-    readFile(plMaleName, ngFirstNameB, 266);
-    readFile(plFemaleName, ngFirstNameG, 147);
-    readFile(plLastName, ngFamilyName, 841);
+    readFile(plMaleName, plFirstNameB, 171);
+    readFile(plFemaleName, plFirstNameG, 112);
+    readFile(plLastName, plFamilyName, 1858);
 
 
     int maleFirstNameGen;
@@ -494,21 +494,21 @@ void Name::createPolishNames()
     for (int i = 0; i < nameCount; i++) {
         genderChoice = rand() % 2 + 1;
 
-        maleFirstNameGen = rand() % 266;
-        genFirstName = rand() % 147;
-        genSecondName = rand() % 841;
+        maleFirstNameGen = rand() % 171;
+        genFirstName = rand() % 112;
+        genSecondName = rand() % 1858;
 
-        random_shuffle(std::begin(ngFirstNameB), std::end(ngFirstNameB));
-        random_shuffle(std::begin(ngFirstNameG), std::end(ngFirstNameG));
-        random_shuffle(std::begin(ngFamilyName), std::end(ngFamilyName));
+        random_shuffle(std::begin(plFirstNameB), std::end(plFirstNameB));
+        random_shuffle(std::begin(plFirstNameG), std::end(plFirstNameG));
+        random_shuffle(std::begin(plFamilyName), std::end(plFamilyName));
 
         switch (genderChoice) {
         case 1:
-            name = ngFirstNameB[maleFirstNameGen] + " " + ngFamilyName[genSecondName] + " [M]";
+            name = plFirstNameB[maleFirstNameGen] + " " + plFamilyName[genSecondName] + " [M]";
             listName.push_back(name);
             break;
         case 2:
-            name = ngFirstNameG[genFirstName] + " " + ngFamilyName[genSecondName] + " [F]";
+            name = plFirstNameG[genFirstName] + " " + plFamilyName[genSecondName] + " [F]";
             listName.push_back(name);
             break;
         default:
