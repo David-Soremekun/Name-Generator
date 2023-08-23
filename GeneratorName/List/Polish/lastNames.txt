@@ -25,7 +25,6 @@ Antczak
 Antek
 Araszkiewicz
 Arciszewski
-B
 Baberowski
 Babiuch
 Bachleda
@@ -168,7 +167,6 @@ Bykowski
 Bysiewicz
 Bystron
 Bytnar
-C
 Cebertowicz
 Cebula
 Centnerszwer
@@ -256,7 +254,6 @@ Czerwonka
 Czyszczon
 Czyż
 Czyżewski
-D
 Dąbal
 Dąbrowski
 Dach 
@@ -323,7 +320,6 @@ Dziuba
 Dziubek
 Dziurzynski
 Dźwigała
-F
 Fedorowicz
 Feliński
 Fialka 
@@ -342,7 +338,6 @@ Frąckowiak
 Frankiewicz
 Frankowski
 Fronczak
-G
 Gabryszak
 Gach 
 Gadecki
@@ -455,7 +450,6 @@ Guzik
 Gwiazdowski
 Gwozdz
 Gzowski
-H
 Haftka
 Halama
 Halas 
@@ -471,7 +465,6 @@ Hurwicz
 Hutten-Czapski
 Hyra
 Hyży
-I
 Ilnicki
 Iskrzycki
 Iwanek
@@ -479,7 +472,6 @@ Iwanicki
 Iwański
 Iwaszkiewicz
 Iwiński
-J
 Jabłonowski
 Jabłońska
 Jablonski
@@ -555,7 +547,6 @@ Jurowski
 Juskowiak
 Juszczyk
 Juszkiewicz
-K
 Kabát 
 Kaczmarczyk
 Kaczmarek
@@ -820,7 +811,6 @@ Kwiecień
 Kwieciński
 Kwiek
 Kwolek
-L
 Łabędź
 Labuda
 Lach (name)
@@ -891,7 +881,6 @@ Lukaszewski
 Lutosławski 
 Lyko
 Lysiak
-M
 Mach 
 Macha 
 Machaj
@@ -1051,7 +1040,6 @@ Musiol
 Muszyński
 Mycielski
 Myśliwiec
-N
 Nadolny
 Naganowski
 Nagorski
@@ -1090,7 +1078,6 @@ Nowara
 Nowicki
 Noworyta
 Nowowiejski
-O
 Oborski
 Obuchowski
 Oglaza
@@ -1125,7 +1112,6 @@ Ostaszewski
 Ostrowski
 Otremba
 Ozdowski
-P
 Pacuła
 Paczkowski
 Paczyński
@@ -1260,7 +1246,6 @@ Puza
 Pych
 Pyrkosz
 Pytlakowski
-R
 Rabinowitz
 Rączka 
 Raczkiewicz
@@ -1336,7 +1321,6 @@ Rzepa
 Rzepecki
 Rzepka
 Rzeźnik
-S
 Sablewska
 Sadalski
 Sadowski
@@ -1600,7 +1584,6 @@ Szymczak
 Szymkowiak
 Szymonowicz
 Szymura
-T
 Talaga
 Tarasyuk
 Tarczyński
@@ -1653,18 +1636,15 @@ Tylicki
 Tyminski
 Tyszka
 Tyszkiewicz
-U
 Urbańczyk
 Urbaniak
 Urbanowicz
 Urbański
 Urbas
-V
 Vetulani
 Vishnevetsky
 Volynets 
 Vrubel
-W
 Wach 
 Wachowiak
 Wachowicz
@@ -1773,7 +1753,6 @@ Wydra
 Wypych
 Wysocki
 Wyszyński
-Z
 Zaba 
 Zabawski
 Zabiello

@@ -13,15 +13,15 @@ private:
 
     std::string ngFirstNameB[266] = { };  // Array Containing Male Norwegian Given Name
     std::string ngFirstNameG[147] = { };  // Array Containing Female Norwegian Given Name
-    std::string ngFamilyName[841] = { };  // Array Containing Female Norwegian Surname
+    std::string ngFamilyName[841] = { };  // Array Containing Norwegian Surname
 
     std::string enFirstNameB[790] = { };  // Array Containing Male English Given Name
     std::string enFirstNameG[756] = { };  // Array Containing Female English Given Name
-    std::string enFamilyName[639] = { };  // Array Containing Female English Surname
+    std::string enFamilyName[639] = { };  // Array Containing English Surname
 
     std::string frFirstNameB[326] = { };  // Array Containing Male French Given Name
     std::string frFirstNameG[100] = { };  // Array Containing Female French Given Name
-    std::string frFamilyName[100] = { };  // Array Containing Female French Surname
+    std::string frFamilyName[100] = { };  // Array Containing French Surname
 
     std::string spFirstNameB[100] = { }; // Array Containing Male Spanish Given Name
     std::string spFirstNameG[100] = { }; // Array Containing Female Spanish Given Name
@@ -38,6 +38,10 @@ private:
     std::string itFirstNameB[383] = { }; // Array Containing Male Italian Given Name
     std::string itFirstNameG[198] = { }; // Array Containing Female Italian Given Name
     std::string itFamilyName[791] = { };
+
+    std::string plFirstNameB[171] = { };  // Array Containing Male Polish Given Name
+    std::string plFirstNameG[112] = { };  // Array Containing Female Polish Given Name
+    std::string plFamilyName[1858] = { };  // Array Containing  Polish Surname
 
     std::string swFirstNameB[198] = { }; // Array Containing Male Swedish Given Name
     std::string swFirstNameG[178] = { }; // Array Containing Female Swedish Given Name
