@@ -1,0 +1,684 @@
+Abbad
+Abbas 
+Abd al-Ali
+Abd al-Alim
+Abdul Awwal
+Abd al-Azim
+Abd al-Aziz
+Abd al-Baqi
+Abd al-Bari
+Abd al-Basir
+Abd al-Basit
+Abd al-Fattah
+Abd al-Ghaffar
+Abd al-Ghafur
+Abd al-Hadi 
+Abd al-Hafiz
+Abd al-Halim
+Abdul Hamid
+Abd al-Haqq
+Abd al-Jabbar
+Abd al-Jalil
+Abd al-Jamil
+Abdul Karim
+Abd al-Khaliq
+Abdul Latif
+Abdul Majid
+Abd al-Mannan
+Abd al-Mun'im
+Abd al-Muttalib 
+Abd al-Nur
+Abd al-Qayyum
+Abd al-Ra'uf
+Abd al-Rabb
+'Abd al-Rahim
+Abd al-Rahman
+Abd al-Raqib
+Abdul Rashid 
+Abd al-Raziq
+Abd al-Razzaq
+Abd al-Sabur
+Abd al-Salam 
+Abdul Samad
+Abd al-Sattar
+Abd al-Shakur
+Abd al-Uzza
+Abd al-Wadud
+Abdul Wahhab
+'Abd al-Wahid
+Abd al-Zahir
+Abd al-Zahra
+Abd Manaf 
+Abd Rabbo
+Abd al-Ahad
+Abdi
+Abdil
+Abdisho
+Abdolreza
+Abdul
+Abdul Ghani
+Abdul Hai
+Abdul Hakim
+Abdul Hussein
+Alauddin
+Abdul Malik
+Abdul Nabi
+Abdul Qadir
+Abdul Quddus
+Abdullah 
+Abdullahi
+Abid
+Abid Ali
+Abidin
+Abo 
+Abu
+Abu Abdullah
+Abu al-Faraj
+Abu al-Qasim
+Abu Bakr 
+Abu Hafs
+Abu Hamza
+Abu Nasr
+Abu'l-Faḍl
+Abul
+Adan 
+Adeel
+Adem
+Aden 
+Adham
+Adib
+Adil
+Adir
+Adli 
+Adnan 
+Affan
+Afif 
+Ahad
+Ahmad
+Ahmed Tijani
+Ahsan
+Aiman
+Akeem
+Akif
+Akram
+Al-Qasim 
+Ala
+Aladdin 
+Alai 
+Ali 
+Ali Haidar
+Ali Naqi
+Ali Reza
+Alim
+Aman Ali
+Amanullah
+Amer 
+Amin 
+Amin al-Din
+Aminul Haque 
+Aminullah
+Amir 
+Amjad
+Ammar 
+Amr 
+Anas 
+Anis
+Anisul Huq
+Anisur Rahman
+Anjem
+Anwar 
+Anwar ul Haq
+Anwaruddin
+Aqeel
+Arif 
+As'ad
+Asad
+Asadullah
+Asem
+Asghar
+Ashraf 
+Asif
+Ata 
+Ata-ur-Rahman
+Ataullah
+Atif
+Atiq
+Atiqullah
+Awad
+Awais
+Ayad
+Ayman
+Ayub 
+Azhar 
+Azim
+Azimullah
+Aziz
+Azizul Haque
+Azizullah
+Azizur Rahman
+Azmi
+Badi
+Badir
+Badr 
+Badr al-Din
+Bagher
+Baha
+Baha 
+Baha' al-Din
+Bahij
+Bahri
+Baki
+Bakir
+Bara 
+Barack 
+Barjas 
+Barkat Ali
+Barkatullah
+Bashar
+Bashir
+Basri
+Bassel
+Bilal 
+Bilel
+Billah
+Bishara
+Boualem
+Boulos
+Boutros
+Brahim 
+Burhan
+Burhan al-Din
+Caden 
+Chadli
+Chaouki
+Daifallah
+Dana 
+Daud
+Dawoud
+Dhikrullah
+Djamal
+Ehsanullah
+Fadel
+Fadi
+Fady
+Fahd
+Faheem
+Fahmi
+Fahri
+Faisal
+Faiyaz
+Faiz
+Faizan
+Faizullah
+Fakhr al-Din
+Fakhraddin
+Fakhruddin
+Faqir 
+Faraj
+Fares 
+Farhat
+Farid
+Fariduddin
+Faris 
+Farooq
+Fasih
+Fathallah
+Fathi
+Fatin
+Fawaz
+Fawzi
+Fayek
+Fayez
+Fazal ur Rahman
+Fazel
+Fazl
+Fazlallah
+Fazli
+Fazlul Haq
+Fazlul Karim
+Fethi
+Fikri
+Fouzan
+Fuad
+Furkan
+Gaffar
+Gamal
+Gamil 
+Ghanem
+Ghassan 
+Ghiyath al-Din
+Ghulam
+Ghulam Faruq
+Ghulam Haider
+Ghulam Mohiuddin
+Gomaa 
+Gulzar 
+Habib
+Habib ur Rahman
+Habibullah
+Hadi
+Hadid 
+Hafeez
+Hafizullah
+Haitham
+Hajj 
+Hajji 
+Hakam
+Hakeem
+Hakim 
+Haldun
+Halim
+Halim 
+Hamdan
+Hamdi
+Hamid
+Hamid al-Din
+Hamidullah
+Hamza 
+Hani 
+Hanif 
+Hanna 
+Harib
+Harris 
+Harun
+Hashem
+Hashim
+Hasib 
+Hassan 
+Hassim
+Hatem
+Hayatullah
+Haydar
+Hazem
+Hazza 
+Hédi 
+Herdi
+Hibatullah 
+Hichem
+Hidayatullah
+Hikmat 
+Hilal 
+Hilmi
+Hisham 
+Hisham ud-Din
+Hossam
+Husam al-Din
+Hussein
+Ibn al-Qasim 
+Ibrahim 
+Ibro
+Idris 
+Ihab
+Ihsan 
+Ikhtiyar al-Din
+Ikramullah
+Ikrimah
+Ilyas
+Imad
+Imad al-Din
+Imed
+Imran
+Imtiaz
+Inaam
+Inam-ul-Haq
+Inayatullah
+Iqbal
+Irfan 
+Isa 
+Ishak 
+Ishtiaq
+Iskandar
+Ismail 
+Ismat ad-Din
+Ismatullah
+Issam 
+Iyad
+Izz al-Din
+Izzat 
+Izzatullah
+Jabal 
+Jabari
+Jaber
+Jabir
+Jabr
+Jahid
+Jahsh
+Jaʽfar
+Jalal
+Jalal al-Din
+Jamal
+Jamal ad-Din
+Jameel
+Jamil
+Jarrah 
+Jasem
+Jawad 
+Jawdat
+Jihad 
+Jubayr
+Junayd
+Ka'b
+Kadeem
+Kadir
+Kadri 
+Kafeel
+Kais
+Kamal ad-Din
+Kamil
+Kareem
+Kashif
+Kazem
+Khadem
+Khair ad-Din
+Khaldoon
+Khalid
+Khalil 
+Khalil-ur-Rehman
+Khamis 
+Khazim
+Labib
+Lahad 
+Lalji
+Latif
+Liaquat
+Lu'ayy
+Lutfullah
+Lutfur Rahman
+Ma'n
+Mahbubur
+Mahfuz 
+Mahir
+Mahmud
+Majid 
+Malek 
+Malik 
+Mamdouh
+Mansur
+Manzur
+Marei 
+Marwan
+Mashallah 
+Mashour
+Massoud
+Maytham
+Mehdi
+Melhem
+Michel 
+Mishaal 
+Mishari
+Mizanur 
+Moatassem
+Moeen
+Moez
+Mohammad Shahabuddin
+Mohammad Taqi
+Mohannad
+Mohy al-Din
+Mojtaba
+Moncef
+Moneim
+Mu'in al-Din
+Mu'iz ad-Din
+Mua'dh
+Muammer
+Mubarak 
+Muhammad 
+Muhanad
+Muharrem
+Muhibullah
+Muhsin
+Mukhtar 
+Mumtaz
+Munib
+Munif
+Munir
+Murad
+Murtaza
+Musa 
+Muslim 
+Mustafa
+Mutaib
+Muzaffar
+Nabih
+Nabil
+Nacer
+Nadeem
+Nader
+Nadir 
+Nadir Ali
+Naguib
+Nahyan
+Naif 
+Naim
+Naji
+Najib
+Najibullah
+Najim
+Najm
+Najm al-Din
+Naqibullah
+Naseer
+Naser 
+Nasim
+Nasir
+Nasir al-Din
+Nasiruddin
+Nasr 
+Nasrallah
+Nasri
+Nasruddin 
+Nassar
+Nasser 
+Nassif
+Nasuh
+Nawaf
+Nawaz
+Nawfal
+Nazif
+Nazih
+Nazim 
+Nazimuddin 
+Nazmi
+Nazzal
+Nihad
+Nimatullah
+Nimr
+Nizam al-Din
+Nu'man
+Nuh 
+Nur al-Din
+Nur ul-Haq
+Nur ul-Huda
+Nuri 
+Nurullah
+Nusrat
+Omar 
+Osama 
+Osman 
+Qaid
+Qais
+Qamar ud-Din
+Qasim 
+Quddus
+Qudratullah
+Qusay
+Qutb
+Qutb ad-Din
+Raad 
+Rabia
+Rabih
+Radwan 
+Raed
+Rafiq
+Ragheb
+Rahim
+Rahman 
+Rahmatullah
+Rahmi
+Rajab 
+Rajaei
+Raji
+Rakim 
+Ramiz
+Ramy
+Ramzan
+Ramzi
+Rashad
+Rashid 
+Rashid al-Din
+Rasul 
+Rayan
+Reda 
+Redouane
+Reza
+Riad 
+Riaz 
+Ridwan 
+Rifat
+Rizqallah
+Ruhi
+Ruhullah
+Rukn al-Din
+Rushdi
+S
+Sa'd al-Din
+Saʽid
+Saad 
+Saadallah
+Saddam 
+Sadi 
+Sadik
+Sadr al-Din
+Safi 
+Safi al-Din
+Safiullah
+Sahil 
+Sahir
+Saif
+Saiful Islam
+Saifullah
+Saifur Rehman
+Sajid
+Sajjad
+Salah 
+Salah ad-Din 
+Saleh 
+Salem 
+Salim 
+Salman 
+Samee
+Sameh
+Samer 
+Sami 
+Samir
+Samiullah
+Sanaullah
+Sardar 
+Sarmad
+Satam
+Sattar
+Saud 
+Sayf al-Din
+Sayyid 
+Serajul Huq
+Shaban 
+Shad 
+Shadi 
+Shafiq 
+Shafiq ur Rahman
+Shafiqullah
+Shahid 
+Shakeel 
+Shakir
+Shams al-Din
+Shams ud Duha
+Shams ul Haq
+Shamsur Rahman
+Sharaf 
+Sharaf al-Din
+Sharawi
+Shawkat
+Shawki
+Shihab al-Din
+Shujauddin
+Shukri
+Sidique
+Sidqi
+Sirajuddin
+Souhail
+Suleiman
+Sultan 
+Taha 
+Taher 
+Tahmid
+Tahsin
+Taimullah
+Talal
+Talat 
+Talhah 
+Talib 
+Taqi
+Tariq
+Taslim 
+Tawfik
+Tayeb
+Tayfur
+Tufail
+Tuhami
+Turki 
+Ubay 
+Ubayd Allah
+Uday
+Umair
+Urwa
+Uthman 
+Uzair 
+Wadih
+Wadud
+Wael
+Wafi
+Wahba
+Wahed
+Wahid
+Wajdi
+Wajid 
+Waleed
+Waliullah 
+Wazir
+Yacine 
+Yadollah
+Yahya 
+Yakub
+Yaseen 
+Yasin 
+Yasser
+Yassin 
+Yassine 
+Yunus 
+Yusha 
+Yusuf
+Yusuf Ali
+Zabihallah
+Zabit
+Zafar 
+Zafarullah
+Zafer
+Zahed
+Zahir
+Zahir al-Din
+Zaid
+Zaim 
+Zainal
+Zainal Abidin
+Zakariya
+Zaki
+Zayden
+Zeeshan
+Zeidan 
+Ziauddin
+Zidan
+Zidane 
+Ziyad
+Zoubir
+Zouhair 
+Zubayr 
