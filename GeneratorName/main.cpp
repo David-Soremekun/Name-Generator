@@ -38,6 +38,7 @@ int main() {
         std::cout << "8. Swedish" << std::endl;
         std::cout << "9. Norweigan" << std::endl;
         std::cout << "10. Japanese" << std::endl;
+        std::cout << "11. Arabic" << std::endl;
         std::cout << "Choose the nationality of names? ";
         //std::cout << "\n" << std::endl;
         std::getline(std::cin, numStr);
@@ -83,6 +84,9 @@ int main() {
             break;
         case 10:
             names->createJapaneseNames();
+            std::cout << "\n";
+        case 11:
+            names->createArabicNames();
             std::cout << "\n";
         default:
             break;

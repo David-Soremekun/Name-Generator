@@ -518,3 +518,47 @@ void Name::createPolishNames()
     printNames();
 
 }
+
+void Name::createArabicNames()
+{
+    const std::string& abLastName = "List\\Arabic\\lastNames.txt";
+    const std::string& abFemaleName = "List\\Arabic\\femaleNames.txt";
+    const std::string& abMaleName = "List\\Arabic\\maleNames.txt";
+
+    readFile(abMaleName, abFirstNameB, 684);
+    readFile(abFemaleName, abFirstNameG, 209);
+    readFile(abLastName, abFamilyName, 711);
+
+
+    int maleFirstNameGen;
+    int genFirstName;
+    int genSecondName;
+    int genderChoice;
+
+    for (int i = 0; i < nameCount; i++) {
+        genderChoice = rand() % 2 + 1;
+
+        maleFirstNameGen = rand() % 684;
+        genFirstName = rand() % 209;
+        genSecondName = rand() % 711;
+
+        random_shuffle(std::begin(abFirstNameB), std::end(abFirstNameB));
+        random_shuffle(std::begin(abFirstNameG), std::end(abFirstNameG));
+        random_shuffle(std::begin(abFamilyName), std::end(abFamilyName));
+
+        switch (genderChoice) {
+        case 1:
+            name = abFirstNameB[maleFirstNameGen] + " " + abFamilyName[genSecondName] + " [M]";
+            listName.push_back(name);
+            break;
+        case 2:
+            name = abFirstNameG[genFirstName] + " " + abFamilyName[genSecondName] + " [F]";
+            listName.push_back(name);
+            break;
+        default:
+            break;
+        }
+    }
+    printNames();
+
+}

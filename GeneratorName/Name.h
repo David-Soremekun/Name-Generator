@@ -51,6 +51,10 @@ private:
     std::string jpFirstNameG[499] = { }; // Array Containing Female Japanese Given Name
     std::string jpFamilyName[110] = { };
 
+    std::string abFirstNameB[684] = { };// Array Containing Male Japanese Given Name
+    std::string abFirstNameG[209] = { }; // Array Containing Female Japanese Given Name
+    std::string abFamilyName[711] = { };
+
     void readFile(const std::string& filename, std::string* testArray, const int SIZE);
     void printNames();
     void deleteNames();
@@ -59,7 +63,7 @@ public:
 
     Name();
     ~Name();
-
+    void createArabicNames();
     void createEnglishNames();
     void createSpanishNames();
     void createFrenchNames();
