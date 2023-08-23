@@ -1,113 +1,100 @@
-Adam (given name)
-Adolf
-Albert (given name)
-Albin (given name)
+Adam 
+Albert 
+Albin 
 Alojzy
-Alvin (given name)
+Alvin 
 Amadeusz
 Andrzej
 Anicet
 Antek
-Anton (given name)
+Anton 
 Antoni
-Antos (name)
+Antos 
 Apolinary
 Arkadiusz
 Arkady
-Arnold (given name)
-B
-Barnim (disambiguation)
+Arnold 
+Barnim 
 Bartek
 Bartłomiej
 Bartosz
 Berek
 Bogdan
-Bogomil (name)
-Bogusław (given name)
-Bolesław (given name)
-Boris (given name)
+Bogomil 
+Bogusław 
+Bolesław 
+Boris 
 Borislav
 Borzysław
-Boyan (given name)
+Boyan 
 Branimir
-Bruno (name)
-C
+Bruno 
 Casimir
 Cezary
 Ctirad
 Czesław
-D
 Daniel
 Dario
 Dariusz
 Dawid
 Dobiesław
 Dobrogost
-E
 Eligiusz
 Ernest
 Eryk
-F
 Feliks
-Florian (name)
+Florian 
 Franciszek
-Fryderyk (given name)
-G
+Fryderyk 
 Gerard
 Godzimir
-Grzegorz (given name)
-H
-Henryk (given name)
-Herbert (given name)
+Grzegorz 
+Henryk 
+Herbert 
 Hubert
-I
 Ignacy
-J
 Jacek
 Jaczemir
-Jan (name)
-Janek (given name)
+Jan 
+Janek 
 Janisław
 Janusz
 Jarek
 Jaromir
-Jarosław (given name)
+Jarosław 
 Jędrzej
 Jeremi
 Jerzy
 Jozef
 Jurand
-Jurek (given name)
-K
+Jurek 
 Kacper
 Kamil
-Karol (name)
+Karol 
 Klemens
-Kostek (disambiguation)
+Kostek 
 Krystian
 Krzesimir
 Krzysztof
 Ksawery
-L
-Lech (name)
-Leopold (given name)
+Lech 
+Leopold 
 Leszek
-List of people named Piotr
-Lotar (name)
+Piotr
+Lotar 
 Lubomir
 Lucjan
 Ludomir
 Ludwik
 Łukasz
-M
 Maciej
 Maciuś
 Maik
 Maksymilian
-Manuel (name)
+Manuel 
 Marcin
-Marek (given name)
-Marian (given name)
+Marek 
+Marian 
 Mariusz
 Mateusz
 Maurycy
@@ -115,35 +102,30 @@ Michał
 Mieczysław
 Mieszko
 Mikołaj
-Milan (given name)
+Milan 
 Miloš
-Mirosław (given name)
+Mirosław 
 Mordechaj
 Mściwój
-Mstislav (given name)
-N
+Mstislav 
 Norbert
-O
-Odolan (given name)
-Olgierd (given name)
-P
+Odolan 
+Olgierd 
 Paweł
 Piotr
-Przemysł (name)
+Przemysł 
 Przemysław
 Przybysław
-R
-Radomir (given name)
+Radomir 
 Radosław
 Rafał
 Rajmund
 Ratimir
-Roman (given name)
-Romuald (disambiguation)
-Rostislav (given name)
+Roman 
+Romuald 
+Rostislav 
 Ryszard
-S
-Samuel (name)
+Samuel 
 Seweryn
 Sławoj
 Sławomir
@@ -152,8 +134,8 @@ Sobieslaw
 Spycimir
 Spytek
 Stanimir
-Stanislav (given name)
-Stefan (given name)
+Stanislav 
+Stefan 
 Świętopełk
 Świętosław
 Szlama
@@ -161,34 +143,29 @@ Szlomo
 Szmuel
 Szmul
 Szymon
-T
 Tadeusz
 Teodor
 Teofil
 Tomasz
 Tomek
-V
 Valentin
 Vitomir
-W
 Wacław
 Waldemar
 Walenty
-Walery (name)
+Walery 
 Wawrzyniec
 Wielimir
 Wiesław
-Witold (given name)
+Witold 
 Władysław
-Włodzimierz (given name)
+Włodzimierz 
 Wojciech
-X
 Xawery
-Z
 Zawisza
 Zbigniew
-Zbylut (given name)
+Zbylut 
 Zbyszko
-Zdzisław (given name)
+Zdzisław 
 Ziemowit
 Zygmunt
