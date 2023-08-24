@@ -67,6 +67,7 @@ public:
 
     Name();
     ~Name();
+    void createPortugueseNames();
     void createArabicNames();
     void createEnglishNames();
     void createSpanishNames();

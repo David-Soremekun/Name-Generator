@@ -60,7 +60,8 @@ int main() {
             std::cout << "\n";
             break;
         case 4:
-
+            names->createPortugueseNames();
+            std::cout << "\n";
             break;
         case 5:
             names->createItalianNames();

@@ -20,11 +20,26 @@ C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(38,5): warning C
 C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(40,5): warning C4154: deletion of an array expression; conversion to pointer supplied
 C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(41,5): warning C4154: deletion of an array expression; conversion to pointer supplied
 C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(42,5): warning C4154: deletion of an array expression; conversion to pointer supplied
-C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(132,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(177,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(215,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(259,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(304,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(44,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(45,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(46,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(48,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(49,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(50,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(52,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(53,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(54,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(56,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(57,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(58,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(60,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(61,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(62,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(152,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(197,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(235,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(279,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\Name.cpp(324,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   main.cpp
   Generating Code...
   LINK : C:\Users\Laptop\Desktop\Project\Name-Gen\GeneratorName\x64\Debug\GeneratorName.exe not found or not built by the last incremental link; performing full link

@@ -85,11 +85,9 @@ void Name::readFile(const std::string &filename, std::string *testArray, const i
 void Name::printNames()
 {
     for (int i = 0; i < listName.size(); ++i)
-        std::cout << listName[i] << std::endl;
+        std::cout << listName[i] << "\n";
 
-    //listName.clear();
     deleteNames();
-    
 }
 
 void Name::deleteNames()
@@ -573,6 +571,49 @@ void Name::createArabicNames()
             break;
         case 2:
             name = abFirstNameG[genFirstName] + " " + abFamilyName[genSecondName] + " [F]";
+            listName.push_back(name);
+            break;
+        default:
+            break;
+        }
+    }
+    printNames();
+
+}
+void Name::createPortugueseNames()
+{
+    const std::string& prLastName = "List\\Portuguese\\lastNames.txt";
+    const std::string& prFemaleName = "List\\Portuguese\\femaleNames.txt";
+    const std::string& prMaleName = "List\\Portuguese\\maleNames.txt";
+
+    readFile(prMaleName, prFirstNameB, 218);
+    readFile(prFemaleName, prFirstNameG, 90);
+    readFile(prLastName, prFamilyName, 383);
+
+
+    int maleFirstNameGen;
+    int genFirstName;
+    int genSecondName;
+    int genderChoice;
+
+    for (int i = 0; i < nameCount; i++) {
+        genderChoice = rand() % 2 + 1;
+
+        maleFirstNameGen = rand() % 218;
+        genFirstName = rand() % 90;
+        genSecondName = rand() % 383;
+
+        random_shuffle(std::begin(prFirstNameB), std::end(prFirstNameB));
+        random_shuffle(std::begin(prFirstNameG), std::end(prFirstNameG));
+        random_shuffle(std::begin(prFamilyName), std::end(prFamilyName));
+
+        switch (genderChoice) {
+        case 1:
+            name = prFirstNameB[maleFirstNameGen] + " " + prFamilyName[genSecondName] + " [M]";
+            listName.push_back(name);
+            break;
+        case 2:
+            name = prFirstNameG[genFirstName] + " " + prFamilyName[genSecondName] + " [F]";
             listName.push_back(name);
             break;
         default:
