@@ -11,6 +11,10 @@ private:
     std::string name;
     std::vector<std::string> listName;
 
+    std::string prFirstNameB[219] = { };  // Array Containing Male Portuguese Given Name
+    std::string prFirstNameG[90] = { };   // Array Containing Female Portuguese Given Name
+    std::string prFamilyName[383] = { };  // Array Containing  Portuguese Surname
+
     std::string ngFirstNameB[266] = { };  // Array Containing Male Norwegian Given Name
     std::string ngFirstNameG[147] = { };  // Array Containing Female Norwegian Given Name
     std::string ngFamilyName[841] = { };  // Array Containing Norwegian Surname
@@ -51,8 +55,8 @@ private:
     std::string jpFirstNameG[499] = { }; // Array Containing Female Japanese Given Name
     std::string jpFamilyName[110] = { };
 
-    std::string abFirstNameB[684] = { };// Array Containing Male Japanese Given Name
-    std::string abFirstNameG[209] = { }; // Array Containing Female Japanese Given Name
+    std::string abFirstNameB[684] = { };// Array Containing Male Arabic Given Name
+    std::string abFirstNameG[209] = { }; // Array Containing Female Arabic Given Name
     std::string abFamilyName[711] = { };
 
     inline void readFile(const std::string& filename, std::string* testArray, const int SIZE);

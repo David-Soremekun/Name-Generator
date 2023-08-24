@@ -31,14 +31,15 @@ int main() {
         std::cout << "1. English" << std::endl;
         std::cout << "2. French" << std::endl;
         std::cout << "3. Spanish" << std::endl;
-        std::cout << "4. Italian" << std::endl;
-        std::cout << "5. German" << std::endl;
-        std::cout << "6. Polish" << std::endl;
-        std::cout << "7. Russian" << std::endl;
-        std::cout << "8. Swedish" << std::endl;
-        std::cout << "9. Norweigan" << std::endl;
-        std::cout << "10. Japanese" << std::endl;
-        std::cout << "11. Arabic" << std::endl;
+        std::cout << "4. Portuguese" << std::endl;
+        std::cout << "5. Italian" << std::endl;
+        std::cout << "6. German" << std::endl;
+        std::cout << "7. Polish" << std::endl;
+        std::cout << "8. Russian" << std::endl;
+        std::cout << "9. Swedish" << std::endl;
+        std::cout << "10. Norweigan" << std::endl;
+        std::cout << "11. Japanese" << std::endl;
+        std::cout << "12. Arabic" << std::endl;
         std::cout << "Choose the nationality of names? ";
         //std::cout << "\n" << std::endl;
         std::getline(std::cin, numStr);
@@ -58,35 +59,37 @@ int main() {
             names->createSpanishNames();
             std::cout << "\n";
             break;
-        case 4: 
+        case 4:
+
+            break;
+        case 5:
             names->createItalianNames();
             std::cout << "\n";
             break;
-        case 5:
+        case 6:
             names->createGermanNames();
             //std::cout << "\n";
             break;
-        case 6:
+        case 7:
             names->createPolishNames();
             std::cout << "\n";
             break;
-        case 7:
+        case 8: 
             names->createRussianNames();
             std::cout << "\n";
             break;
-        case 8: 
+        case 9:
             names->createSwedishNames();
             std::cout << "\n";
             break;
-        case 9:
+        case 10:
             names->createNorwegianNames();
             std::cout << "\n";
-            break;
-        case 10:
+        case 11:
             names->createJapaneseNames();
             std::cout << "\n";
-        case 11:
-            names->createArabicNames();
+        case 12:
+           names->createArabicNames();
             std::cout << "\n";
         default:
             break;
