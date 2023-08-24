@@ -55,8 +55,8 @@ private:
     std::string abFirstNameG[209] = { }; // Array Containing Female Japanese Given Name
     std::string abFamilyName[711] = { };
 
-    void readFile(const std::string& filename, std::string* testArray, const int SIZE);
-    void printNames();
+    inline void readFile(const std::string& filename, std::string* testArray, const int SIZE);
+    inline void printNames();
     void deleteNames();
 
 public:
