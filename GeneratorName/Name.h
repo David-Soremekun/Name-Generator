@@ -45,19 +45,23 @@ private:
 
     std::string plFirstNameB[171] = { };  // Array Containing Male Polish Given Name
     std::string plFirstNameG[112] = { };  // Array Containing Female Polish Given Name
-    std::string plFamilyName[1858] = { };  // Array Containing  Polish Surname
+    std::string plFamilyName[1858] = { }; // Array Containing  Polish Surname
 
     std::string swFirstNameB[198] = { }; // Array Containing Male Swedish Given Name
     std::string swFirstNameG[178] = { }; // Array Containing Female Swedish Given Name
     std::string swFamilyName[710] = { };
 
-    std::string jpFirstNameB[1398] = { };// Array Containing Male Japanese Given Name
-    std::string jpFirstNameG[499] = { }; // Array Containing Female Japanese Given Name
+    std::string jpFirstNameB[1398] = { }; // Array Containing Male Japanese Given Name
+    std::string jpFirstNameG[499] = { };  // Array Containing Female Japanese Given Name
     std::string jpFamilyName[110] = { };
 
-    std::string abFirstNameB[684] = { };// Array Containing Male Arabic Given Name
+    std::string abFirstNameB[684] = { }; // Array Containing Male Arabic Given Name
     std::string abFirstNameG[209] = { }; // Array Containing Female Arabic Given Name
     std::string abFamilyName[711] = { };
+
+    std::string chFirstNameB[684] = { }; // Array Containing Male Chinese Given Name
+    std::string chFirstNameG[209] = { }; // Array Containing Female Chinese Given Name
+    std::string chFamilyName[711] = { };
 
     inline void readFile(const std::string& filename, std::string* testArray, const int SIZE);
     inline void printNames();
