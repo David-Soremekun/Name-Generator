@@ -69,7 +69,7 @@ int main() {
             break;
         case 6:
             names->createGermanNames();
-            //std::cout << "\n";
+            std::cout << "\n";
             break;
         case 7:
             names->createPolishNames();
@@ -90,7 +90,7 @@ int main() {
             names->createJapaneseNames();
             std::cout << "\n";
         case 12:
-           names->createArabicNames();
+            names->createArabicNames();
             std::cout << "\n";
         default:
             break;

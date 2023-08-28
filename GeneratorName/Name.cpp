@@ -60,6 +60,10 @@ Name::~Name()
     delete[] prFirstNameB;
     delete[] prFirstNameG;
     delete[] prFamilyName;
+
+    delete[] chFirstNameB;
+    delete[] chFirstNameG;
+    delete[] chFamilyName;
 }
 
 void Name::readFile(const std::string &filename, std::string *testArray, const int SIZE)
